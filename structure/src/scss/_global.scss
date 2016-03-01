@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+// Global
+//--------------------------------------------------------------------------
+
+// ---示例代码---
+.mod {background:#ccc;height:100px;text-align:center;font-size:44px;line-height:100px;}
+.zk-header {height:100px;margin-bottom:20px;
+  .mod {background:#000;}
+}
+
+.zk-main {margin-bottom:20px;
+  .row {margin-bottom:20px;}
+}
+
+.zk-ban {
+  .mod {height:400px;}
+}
+
+.zk-notice {
+  .mod {height:50px;}
+}
+
+.zk-product {
+  .mod {height:300px;}
+  .col-item {margin-bottom:20px;}
+}
+
+.zk-footer {
+  .mod {height:200px;background:#000;}
+}
+// ---end 示例代码---

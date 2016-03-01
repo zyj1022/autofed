@@ -1,0 +1,27 @@
+{
+  "name": "autofed",
+  "version": "0.1.1",
+  "description": "用node命令生成前端自动化工程包",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zyj1022/autofed.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "preferGlobal": true,
+  "bin": {
+    "autofed": "./bin/autofed.js"
+  },
+  "bugs": {
+    "url": "https://github.com/zyj1022/autofed/issues"
+  },
+  "homepage": "https://github.com/zyj1022/autofed#README",
+  "dependencies": {
+    "bluebird": "^3.0.6",
+    "commander": "^2.9.0",
+    "fs-extra": "^0.26.2"
+  }
+}
