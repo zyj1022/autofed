@@ -1,6 +1,6 @@
 {
   "name": "autofed",
-  "version": "0.1.3",
+  "version": "0.1.5",
   "description": "用node命令生成前端自动化工程包",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
