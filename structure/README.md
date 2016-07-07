@@ -73,6 +73,10 @@ fed-template ——— 用gulp配置的前端自动化工程包
     cssnano     = require('gulp-cssnano'), //
     browserSync = require('browser-sync'), //浏览器同步预览
     runSequence = require('run-sequence');
+    
 
+版本改进
+============
 
+- 引入 gulp-load-plugins 方便调用 gulp 插件
 
