@@ -8,7 +8,6 @@ var $ = gulpLoadPlugins();
 var reload = browserSync.reload;
 
 // Task to compile SCSS
-// Task to compile SCSS
 gulp.task('sass', function() {
 	return gulp.src('src/scss/style.scss')
 		.pipe($.plumber())
@@ -19,7 +18,7 @@ gulp.task('sass', function() {
 		}).on('error', $.sass.logError))
 		.pipe(gulp.dest('src/css'))
 		.pipe($.rename({suffix: '.min'}))
-		.pipe($.cssnano())
+		.pipe($.csso())
 		.pipe(gulp.dest('src/css'))
 		.pipe(gulp.dest('dist/css'))
 		.pipe(reload({
